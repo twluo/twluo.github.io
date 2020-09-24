@@ -26,7 +26,6 @@ function draw() {
     ctx.clearRect(0, 0, width, height);
     if (radius != oldRadius) {
         lines = getListOfLines(radius, n, center)
-        console.log(lines, showLines)
         oldRadius = radius
     }
     if (showLines) {
