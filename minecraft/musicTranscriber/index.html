@@ -1,0 +1,23 @@
+<html>
+    <head>
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+            }
+        </style>
+    </head>
+    <center>
+        <h1>Music Transcriber</h1>
+    </center>
+    This utility helps translate from Alphabetical Musical Notation to something you can paste on Xerca's Music Maker Mod<br>
+    <p>Each note is divided into 3 parts: The note (ranging from C to B), if it's a sharp(#), flat(b) or no augmentation(_), and the octave (1-4). Ex: C_3 denotes C natural on the 3rd octave. <br> Additionally silences are denoted as 000. </p>
+    Input: <br>
+    <textarea id="input" rows="10" cols="200">C_0D_0E_0G_0C_1D_1E_1G_1C_2D_2E_2G_2C_3G_2E_2D_2C_2G_1E_1D_1C_1G_0E_0D_0C_0</textarea><br><br><br>
+    <button id="encode">Encode</button>
+    <button id="decode">Decode</button><br><br><br>
+    Output: <br>
+    <textarea id="output" rows="10" cols="200"></textarea><br><br><br>
+    <script src="myscript.js"></script>
+</html>
