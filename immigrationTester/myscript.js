@@ -53,14 +53,14 @@ function draw(showSolution, index) {
 }
 
 function writePrompt(index) {
-    ctx.font = "30px Comic Sans MS";
+    ctx.font = "20px Comic Sans MS";
     ctx.fillStyle = "red";
     ctx.textAlign = "center";
     ctx.fillText(question_answers[index].split(";")[0], canvas.width/2, canvas.height/4);
 }
 
 function writeSolution(index) {
-    ctx.font = "30px Comic Sans MS";
+    ctx.font = "20px Comic Sans MS";
     ctx.fillStyle = "red";
     ctx.textAlign = "center";
     ctx.fillText(question_answers[index].split(";")[1], canvas.width/2, canvas.height/4*3);
