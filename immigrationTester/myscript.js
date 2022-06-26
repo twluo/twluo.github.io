@@ -43,6 +43,13 @@ document.body.onkeyup = function (e) {
     if (e.keyCode == 82) {
         random()
     }
+    if (e.keyCode == 70) {
+        if (!showSolution) {
+            toggleSolution()
+        } else {
+            random()
+        }
+    }
 }
 function draw(showSolution, index) {
     canvas.width = window.innerWidth;
