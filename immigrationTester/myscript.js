@@ -12,13 +12,19 @@ function toggleSolution() {
 
 function next() {
     showSolution = false
-    index = (index + 1) % 100
+    index = (index + 1) % 100    
+    if (index == 0) {
+        index = 100
+    }
     draw(showSolution, index)
 }
 
 function prev() {
     showSolution = false
     index = (index - 1) % 100
+    if (index == 0) {
+        index = 100
+    }
     draw(showSolution, index)
 }
 
