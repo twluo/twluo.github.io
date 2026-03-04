@@ -1,0 +1,17 @@
+{
+  "defaultYear": "2025",
+  "years": [
+    {
+      "year": "2025",
+      "file": "data/showcase-2025.json"
+    },
+    {
+      "year": "2024",
+      "file": "data/showcase-2024.json"
+    },
+    {
+      "year": "2026",
+      "file": "data/showcase-2026.json"
+    }
+  ]
+}

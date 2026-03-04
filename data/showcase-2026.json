@@ -1,0 +1,46 @@
+{
+  "sections": [
+    {
+      "name": "Games",
+      "icon": "🎮",
+      "status": "Now playing",
+      "url": "https://backloggd.com/u/BananaDaemon/",
+      "items": [
+      ]
+    },
+    {
+      "name": "Books",
+      "icon": "📚",
+      "status": "Now reading",
+      "url": "https://hardcover.app/@BananaDaemon",
+      "items": [
+      ]
+    },
+    {
+      "name": "Movies",
+      "icon": "🎬",
+      "status": "Now watching",
+      "url": "https://letterboxd.com/BananaDaemon/",
+      "items": [
+      ]
+    },
+    {
+      "name": "Albums",
+      "icon": "🎧",
+      "status": "Now listening",
+      "url": "https://record.club/banana",
+      "items": [
+      ]
+    },
+    {
+      "name": "Photos",
+      "icon": "📸",
+      "status": "Now shooting",
+      "url": "https://www.instagram.com/bananadaemon3/",
+      "imageMaxHeight": 360,
+      "imageMaxWidth": 360,
+      "items": [ 
+      ]
+    }
+  ]
+}
