@@ -1,5 +1,5 @@
 {
-  "defaultYear": "Current",
+  "defaultYear": "2025",
   "years": [
     {
       "year": "2025",
@@ -10,8 +10,8 @@
       "file": "data/showcase-2024.json"
     },
     {
-      "year": "Current",
-      "file": "data/showcase-current.json"
+      "year": "2026",
+      "file": "data/showcase-2026.json"
     }
   ]
 }
