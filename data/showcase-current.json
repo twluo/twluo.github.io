@@ -1,20 +1,29 @@
 {
   "sections": [
     {
-      "name": "Books",
-      "icon": "📚",
-      "status": "Now reading",
-      "url": "https://hardcover.app/@BananaDaemon",
-      "endpoint": "https://ta7zakyxod2guoucvdo6mbr4pi0uhpot.lambda-url.us-east-1.on.aws/hardcover?count=7",
-      "items": [
-      ]
-    },
-    {
       "name": "Games",
       "icon": "🎮",
       "status": "Now playing",
       "url": "https://backloggd.com/u/BananaDaemon/",
       "endpoint": "https://ta7zakyxod2guoucvdo6mbr4pi0uhpot.lambda-url.us-east-1.on.aws/steam",
+      "items": [
+      ]
+    },
+    {
+      "name": "Albums",
+      "icon": "🎧",
+      "status": "Now listening",
+      "url": "https://record.club/banana",
+      "endpoint": "https://ta7zakyxod2guoucvdo6mbr4pi0uhpot.lambda-url.us-east-1.on.aws/lastfm",
+      "items": [
+      ]
+    },
+        {
+      "name": "Books",
+      "icon": "📚",
+      "status": "Now reading",
+      "url": "https://hardcover.app/@BananaDaemon",
+      "endpoint": "https://ta7zakyxod2guoucvdo6mbr4pi0uhpot.lambda-url.us-east-1.on.aws/hardcover?count=7",
       "items": [
       ]
     }
